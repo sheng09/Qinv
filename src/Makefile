@@ -18,6 +18,7 @@ EXEC = $(foreach src,${SRC3},$(subst .cxx,,${src}))
 
 CXX = g++
 INC = -I../from_sac/inc -L../lib -L../from_sac
+INC = 
 DEBUG = -DDEGBUG -Wall -g
 #DEBUG = -O3
 DEBUG = -Ofast
