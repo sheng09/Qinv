@@ -9,8 +9,9 @@ SUBS_install = $(foreach sub, ${SUBS}, ${sub}.install)
 
 
 
-all: ${SUBS_make}
-
+all:  ${SUBS_make}
+	-mkdir bin
+	-mkdir lib
 
 
 
