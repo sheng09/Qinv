@@ -17,18 +17,20 @@ make install
 
 ## Binary
 
-- `findBestWin`: 
-- `polarizeP`: 
-- `qinv`: 
-- `stackQ`: 
+- `polarizeP`: invert the Back-Azimuth given NEZ components, and rotate to radial and the tangential directions.
+- `findBestWin`: find the best time window, and lag time for the incident and the surface reflected phases.
+- `qinv`: invert the Q value given tangential trace, and the time windows of the incident and the reflected phases.
+- `stackQ`: stack the inverted Q values in a single station to get a stable value.
 
 ## Script for volume production
 
-- `findBestWinSet.py`: 
-- `qinvSet.py`: 
-- `stackQ.py`: 
+- `findBestWinSet.py`: volume production for `findBestWin`.
+- `qinvSet.py`: volume production for `qinv`.
+- `stackQ.py`: volume production for `stackQ`.
 
 ## Binary tests
+
+All binaries of `test_...` are for checking whether this package is correctly installed.
 
 - `test_atten`: 
 - `test_crossSpec`: 
