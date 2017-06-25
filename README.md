@@ -8,8 +8,10 @@ This is a package for attenuation analysis for borehole observation.
 
 # 2. How to install
 
+```
 make
 make install
+```
 
 # 3. Tools
 
