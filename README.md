@@ -2,16 +2,16 @@
 
 This is a package for attenuation analysis for borehole observation.
 
-# Prerequest
+# 1. Prerequest
 
 [`fftw3`](http://www.fftw.org/) is required for this package.
 
-# How to install
+# 2. How to install
 
 make
 make install
 
-# Tools
+# 3. Tools
 
 ## Binary
 
