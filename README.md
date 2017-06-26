@@ -2,6 +2,9 @@
 
 This is a package for attenuation analysis for borehole observation.
 
+Author: Sheng Wang
+Email: wangsheng.cas(at)gmail.com
+
 # 1. Prerequest
 
 [`fftw3`](http://www.fftw.org/) is required for this package.
@@ -43,3 +46,26 @@ All binaries of `test_...` are for checking whether this package is correctly in
 - `test_tracef1d`: 
 - `test_tracef1d_Spec`: 
 - `test_winopt`: 
+
+# 4. Example
+
+Examples are presented in the directory of `exam/`, and please find the script examples of `run.sh` in each subdirectories.
+
+# 4.1 `exam_polarize_syn/`
+
+Polarization example for synthetic seismograms.
+
+![](exam/exam_polarize_syn/compare.png)
+
+# 4.2 `exam_findBestWin_syn/`
+
+Find the optimal time windows of the incident and the surface reflected phases in synthetic borehole seismogram.
+
+![](exam/exam_findBestWin_syn/coef2d.png)
+
+# 4.3 `exam_qinv_syn/`
+
+Invert the Q value given the incident and the surface reflected traces.
+
+![](exam/exam_qinv_syn/qinv.png)
+
