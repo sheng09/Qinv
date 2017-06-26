@@ -15,6 +15,7 @@ This package is for attenuation analysis for borehole observation.
 make
 make install
 ```
+Then, add the generated directory of `your path to Qinv/bin/`  into your `PATH`.
 
 # 3. Tools
 
