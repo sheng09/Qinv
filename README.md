@@ -59,7 +59,7 @@ Polarization example for synthetic seismograms.
 
 ![](exam/exam_polarize_syn/compare.png)
 
-Fig4.1 Comparison of the radial and tangential synthetic seismograms (black lines), and the inverted seismograms from `polarizeP`. 
+Fig 4.1 Comparison of the radial and tangential synthetic seismograms (black lines), and the inverted seismograms(red lines) from `polarizeP`. 
 
 ------
 
@@ -71,7 +71,7 @@ Find the optimal time windows of the incident and the surface reflected phases i
 
 ![](exam/exam_findBestWin_syn/coef2d.png)
 
-Fig4.2 Grid search isogram for the optimal windows of the incident and the surface reflected phases for synthetic tangential component. Waveform comparison are presented in Fig 4.3.
+Fig .2 Grid search isogram for the optimal windows of the incident and the surface reflected phases for synthetic tangential component. Waveform comparison is presented in Fig 4.3.
 
 ------
 
