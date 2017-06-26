@@ -55,7 +55,15 @@ Examples are presented in the directory of `exam/`, and please find the script e
 
 Polarization example for synthetic seismograms.
 
+
+
 ![](exam/exam_polarize_syn/compare.png)
+
+Fig4.1 Comparison of the radial and tangential synthetic seismograms (black lines), and the inverted seismograms from `polarizeP`. 
+
+------
+
+
 
 # 4.2 `exam_findBestWin_syn/`
 
@@ -63,9 +71,16 @@ Find the optimal time windows of the incident and the surface reflected phases i
 
 ![](exam/exam_findBestWin_syn/coef2d.png)
 
+Fig4.2 Grid search isogram for the optimal windows of the incident and the surface reflected phases for synthetic tangential component. Waveform comparison are presented in Fig 4.3.
+
+------
+
+
+
 # 4.3 `exam_qinv_syn/`
 
 Invert the Q value given the incident and the surface reflected traces.
 
 ![](exam/exam_qinv_syn/qinv.png)
 
+Fig 4.3 (up-left):The comparison of incident and the surface reflected phases. (up-right):The power spectrum comparison, black dash line presents the level of 70% maximum power. (low-left): The phase of the transfer function. (low-right): The inverted Q value. Please note that Q value is valid for the frequency band of (0.2, 0.6)Hz , in which the signal power is strong, and the phase of the transfer function is stable and approximates 0 degree.
