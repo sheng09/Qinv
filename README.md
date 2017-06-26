@@ -2,8 +2,8 @@
 
 This package is for attenuation analysis for borehole observation.
 
-Author: Sheng Wang
-Email: wangsheng.cas(at)gmail.com
+- Author: Sheng Wang
+- Email: wangsheng.cas(at)gmail.com
 
 # 1. Prerequest
 
