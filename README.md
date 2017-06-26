@@ -1,6 +1,6 @@
 # Qinv
 
-This is a package for attenuation analysis for borehole observation.
+This package is for attenuation analysis for borehole observation.
 
 Author: Sheng Wang
 Email: wangsheng.cas(at)gmail.com
