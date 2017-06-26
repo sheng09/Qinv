@@ -5,11 +5,11 @@ This package is for attenuation analysis for borehole observation.
 - Author: Sheng Wang
 - Email: wangsheng.cas(at)gmail.com
 
-# 1. Prerequest
+# 1. Library Dependence
 
 [`fftw3`](http://www.fftw.org/) is required for this package.
 
-# 2. How to install
+# 2. How to Install
 
 ```
 make
@@ -47,7 +47,7 @@ All binaries of `test_...` are for checking whether this package is correctly in
 - `test_tracef1d_Spec`: 
 - `test_winopt`: 
 
-# 4. Example
+# 4. Examples
 
 Examples are presented in the directory of `exam/`, and please find the script examples of `run.sh` in each subdirectories.
 
