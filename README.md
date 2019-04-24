@@ -1,6 +1,6 @@
 # Qinv
 
-This package is for seismic attenuation characteristics (Q value) analysis for borehole observation.
+This package is for seismic attenuation characteristics (Q value) analysis based on borehole observation.
 
 - Author: Sheng Wang
 - Email: wangsheng.cas(at)gmail.com
@@ -21,20 +21,20 @@ Then, add the generated directory of `your path to Qinv/bin/`  into your `PATH`.
 
 ## Binary
 
-- `polarizeP`: invert the Back-Azimuth given NEZ components, and rotate to radial and the tangential directions.
-- `findBestWin`: find the best time window, and lag time for the incident and the surface reflected phases.
-- `qinv`: invert the Q value given tangential trace, and the time windows of the incident and the reflected phases.
-- `stackQ`: stack the inverted Q values in a single station to get a stable value.
+- `polarizeP`: invert the Back-Azimuth given NEZ components, and generate corresponding radial and the tangential components;
+- `findBestWin`: find the optimal time window, and lag time for incident and the surface reflected waves;
+- `qinv`: invert frequency-dependent Q values given single tangential seismogram, and the time windows for incident and reflected waves;
+- `stackQ`: stack inverted Q values by sets of seismograms at a single station to get stable values.
 
 ## Script for volume production
 
-- `findBestWinSet.py`: volume production for `findBestWin`.
-- `qinvSet.py`: volume production for `qinv`.
-- `stackQ.py`: volume production for `stackQ`.
+- `findBestWinSet.py`: batch processing for `findBestWin`.
+- `qinvSet.py`: batch processing for `qinv`.
+- `stackQ.py`: batch processing for `stackQ`.
 
 ## Binary tests
 
-All binaries of `test_...` are for checking whether this package is correctly installed.
+All binaries with name format of `test_...` are for dev unit tests.
 
 - `test_atten`: 
 - `test_crossSpec`: 
@@ -50,11 +50,11 @@ All binaries of `test_...` are for checking whether this package is correctly in
 
 # 4. Examples
 
-Examples are presented in the directory of `exam/`, and please find the script examples of `run.sh` in each subdirectories.
+Examples are in the directory of `exam/`, each of which as a script example, `run.sh`, for running.
 
 # 4.1 `exam_polarize_syn/`
 
-Polarization example for synthetic seismograms.
+Polarization example using synthetic seismograms for inverting the Back-Azimuth given NEZ components, and generateingcorresponding radial and the tangential components.
 
 
 
@@ -68,7 +68,7 @@ Fig 4.1 Comparison of the radial and tangential synthetic seismograms (black lin
 
 # 4.2 `exam_findBestWin_syn/`
 
-Find the optimal time windows of the incident and the surface reflected phases in synthetic borehole seismogram.
+Determine the optimal time windows of incident and surface reflected waves.
 
 ![](exam/exam_findBestWin_syn/coef2d.png)
 
@@ -80,7 +80,7 @@ Fig .2 Grid search isogram for the optimal windows of the incident and the surfa
 
 # 4.3 `exam_qinv_syn/`
 
-Invert the Q value given the incident and the surface reflected traces.
+Invert frequency-dependent Q values from the incident and the surface reflected waves.
 
 ![](exam/exam_qinv_syn/qinv.png)
 
