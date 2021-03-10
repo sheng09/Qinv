@@ -5,6 +5,14 @@ This package is for seismic attenuation characteristics (Q value) analysis based
 - Author: Sheng Wang
 - Email: wangsheng.cas(at)gmail.com
 
+Table of content
+---
+* [Library Dependence](https://github.com/sheng09/Qinv#1-library-dependence)
+* [How to Install](https://github.com/sheng09/Qinv#2-how-to-install)
+* [Tools](https://github.com/sheng09/Qinv#3-tools)
+* [Examples](https://github.com/sheng09/Qinv#4-examples)
+* [Citation](https://github.com/sheng09/Qinv#5-citation)
+
 # 1. Library Dependence
 
 [`fftw3`](http://www.fftw.org/) is required for this package.
@@ -85,3 +93,7 @@ Invert frequency-dependent Q values from the incident and the surface reflected 
 ![](exam/exam_qinv_syn/qinv.png)
 
 Fig 4.3 (up-left):The comparison of incident and the surface reflected phases. (up-right):The power spectrum comparison, black dash line presents the level of 70% maximum power. (low-left): The phase of the transfer function. (low-right): The inverted Q value. Please note that Q value is valid for the frequency band of (0.2, 0.6)Hz , in which the signal power is strong, and the phase of the transfer function is stable and approximates 0 degree.
+
+# 5. Citation
+
+`Wang, S. and Li, Z., 2018. S-wave attenuation of the shallow sediments in the North China basin based on borehole seismograms of local earthquakes. Geophysical Journal International, 214(2), pp.1391-1400, https://doi.org/10.1093/gji/ggy223`
