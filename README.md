@@ -1,6 +1,6 @@
 # Qinv
 
-This package is for seismic attenuation characteristics (Q value) analysis based on borehole observation.
+This package is for seismic attenuation characteristics (Q value) analysis based on borehole observations.
 
 - Author: Sheng Wang
 - Email: wangsheng.cas(at)gmail.com
